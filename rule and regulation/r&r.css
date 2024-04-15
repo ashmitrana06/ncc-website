@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(23, 189, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading h2 {
+  margin-left: 20px;
+  color: white;
+  font-weight: bolder;
+  font-family: arial;
+}
+
+.heading a {
+  margin-right: 20px;
+  color: white;
+  font-size: 30px;
+}
+
+.heading a:active {
+  color: black;
+}
+
+.head-text p {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.head-text li {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  font-family: arial;
+}
