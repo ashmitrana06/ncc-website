@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back a {
+    height: 3rem;
+    width: 3rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    font-size: 25px;
+    border-radius: 100%;
+    text-decoration: none;
+}
+
+.back a:hover {
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.281);
+}
+
+.well-ncc {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(168, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 35px;
+    text-align: center;
+    box-shadow: -5px 0px 15px black; 
+}
+
+.register {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 5px 0px 15px black; 
+}
+
+.head-text {
+    height: 70px;
+    width: 500px;
+    font-family: arial;
+    color: white;
+    background-color: rgb(27, 190, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 72px;
+    border-top-right-radius: 15px;
+}
+
+.form-name {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px
+}
+
+.name {
+    /* margin-right: 20px; */
+    font-family: arial;
+}
+
+.input {
+    height: 25px;
+    width: 230px;
+    background-color: lightgray;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.form-email {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.email {
+    font-family: arial;
+}
+
+.form-email input {
+    height: 25px;
+    width: 230px;
+    background-color: lightgray;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.form-regi {
+    width: 100%;
+    display: flex;
+    margin-right: 25px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.regi {
+    font-family: arial;
+}
+
+.regi input {
+    height: 25px;
+    width: 350px;
+    background-color: lightgray;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.divison select {
+    height: 25px;
+    width: 65px;
+    padding: 2px;
+}
+
+.regi input:hover {
+    border: 2px solid blue;
+    background-color: rgb(167, 167, 255);
+}
+
+.input:hover {
+    border: 2px solid blue;
+    background-color: rgb(167, 167, 255);
+}
+
+.email input:hover {
+    border: 2px solid blue;
+    background-color: rgb(167, 167, 255);
+}
+
+.form-pass {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pass {
+    font-family: arial;
+}
+
+.submit input {
+    height: 30px;
+    width: 120px;
+    margin-bottom: 15px;
+    background-color: rgb(27, 190, 255);
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px solid skyblue;
+    box-shadow: 0px 0px 15px black; 
+}
+
+.submit input:hover {
+    background-color: blue;
+    border: 2px solid black;
+}
