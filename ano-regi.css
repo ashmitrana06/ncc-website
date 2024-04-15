@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: rgba(236, 236, 236, 0.671);
+}
+.container {
+    height: 30rem;
+    width: 25rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.heding {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.377);
+    color: blue;
+}
+
+.form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    height: 50px;
+    width: 320px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.input {
+    background: #eaeaea;
+    margin: 10px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+    transition-duration: 0.5s;
+}
+
+
+.input i {
+    margin-left: 15px;
+    color: #999;
+}
+
+button {
+    height: 2.5rem;
+    width: 8rem;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    border-radius: 50px;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.back {
+    height: 50px;
+    width: 50px;
+    background-color: skyblue;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 22px;
+    position: absolute;
+    top: 10%;
+    right: 33%;
+    z-index: 1;
+}
+
+.back a {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.back:hover {
+    background-color: blue;
+}
+
+.back a:active {
+    color: black;
+}
+
+p{
+    font-size: 12px;
+    color: #999;
+    position: absolute;
+    top: 78%;
+    left: 7%;
+}
+
+p a {
+    text-decoration: none;
+    color: rgba(58, 58, 255, 0.562);
+}
