@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.container {
+    width: 100;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0, 0, 0, 0.925)), url(/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.container a {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 2%;
+    right: 10px;
+}
+
+.container a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.heaing h1::after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    border-radius: 3px;
+    background: rgb(255, 0, 0);
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translate(-55%);
+}
+
+.ncc-logo::after {
+    content: '';
+    width: 50px;
+    height: 4px;
+    border-radius: 3px;
+    background: rgb(255, 0, 0);
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-55%);
+}
+
+.discription p {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.ncc-logo {
+    background-color: wheat;
+    border-radius: 15px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.623);
+}
