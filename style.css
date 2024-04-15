@@ -1,0 +1,507 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;     
+}
+
+.navbar {
+    height: 100px;
+    background-color: white;
+    border-bottom: 2px solid black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 90px;
+    width: 300px;
+}
+
+.logo {
+    background-image: url(/img/ncc-logo.png);
+    background-size: initial;
+    height: 90px;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid black;
+}
+
+.button-rule {
+    height: 35px;
+    width: 12rem;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(21, 189, 255);
+    color: white;
+    border-radius: 5px;
+}
+
+.button-login {
+    height: 35px;
+    width: 12rem;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(21, 189, 255);
+    color: white;
+    border-radius: 5px;
+}
+
+.button-register {
+    height: 35px;
+    width: 12rem;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(21, 189, 255);
+    color: white;
+    border-radius: 5px;
+}
+
+.lan-select {
+    height: 30px;
+    width: 6rem;
+    background-color:  rgb(21, 189, 255);
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid black;
+}
+
+.add-icon i {
+    color: black;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon {
+    height: 35px;
+    width: 100px;
+    background-color: rgb(21, 189, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid transparent;
+}
+
+.profile-icon a {
+    text-decoration: none;
+    color: white;
+    font-size: 16.5px;
+}
+
+.profile-icon i {
+    color: black;
+}
+
+.profile-icon:hover {
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.pannel {
+    height: 30px;
+    background-color: aqua;
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+}
+
+.pannel-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    
+}
+/* 
+.text {
+    background-color: blue;
+    color: white;
+} */
+
+.text a {
+    text-decoration: none;
+    color: black;
+    padding: 6px 5px;
+    transition-duration: 0.5s;
+}
+
+.text a:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+.button:hover {
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.button:active {
+    background-color: blue;
+}
+
+.hero-img {
+    height: 700px;
+    background-image: url(/img/img3.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.well-text {
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.paira-text {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.well-paira-text {
+    height: 300px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.whatsnew {
+    height: 50px;
+    width: 120px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.notice-bar {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.notice {
+    height: 50px;
+    width: 100%;
+    background-color: #00d9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.notification {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+.notification li {
+    margin-top: 15px;
+    animation: colorChange 3s ease-in-out infinite;
+    cursor: pointer;
+}
+
+@keyframes colorChange {
+    0% {
+        color: red;
+    }
+    50%{
+        color: blue;
+    }
+    100% {
+        color: red;
+    }
+    
+}
+
+.pri-ano {
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 20px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.pri-ano-photo {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.photo {
+    height: 320px;
+    background-color: white;
+    padding: 30px;
+    border: 2px solid black;
+    box-shadow: 0px 4px 15px black; 
+}
+
+.name-text {
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.activity-con {
+    height: 300px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.title {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: white;
+    align-items: center;
+    transition: transform 0.80s;
+    text-decoration: none;
+    color: black;
+}
+
+.title h4 {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid transparent;
+}
+
+.title:hover {
+    transform: scale(1.2);
+    border: 2px solid white;
+    background-color: rgb(211, 236, 252);
+    z-index: 1;
+}
+
+.footer-pannel {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(45, 196, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footer-pannel a {
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+
+.footer-pannel a:hover {
+    color: black;
+}
+
+.info {
+    height: 200px;
+    width: 100%;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info-head {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.info-paira {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.info-paira a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* back to top */
+
+.top {
+    width: 3rem;
+    height: 3rem;
+    position: fixed;
+    right: 2%;
+    bottom: 5%;
+    z-index: 1;
+    border-radius: 100%;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solid {
+    margin-left: 3px;
+    background: var(--helper);
+    position: relative;
+    color: var(--white);
+    animation: water-wave 3s linear infinite;
+    cursor: pointer;
+}
+
+.top:hover {
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.596);
+}
+
+.patners {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.ptr {
+    cursor: pointer;
+}
+
+.divider {
+    height: 95%;
+    width: 1px;
+    background-color: black;
+}
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 20px;
+    height: 100%;
+    padding: 0px 5px;
+    align-items: center;
+    transition-duration: 0.5s;
+}
+
+.popup:hover {
+    background-color: blue;
+    color: white;
+}
+    
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #00d9ff;
+    color: #fff;
+    text-align: initial;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    top: 140%;
+    left: 50%;
+    margin-left: -80px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.popuptext a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+
+.popuptext a:hover {
+    color: white;
+}
+  
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #00d9ff transparent transparent transparent;
+    rotate: 180deg;
+}
+  
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+  
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+  
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+.mode {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
